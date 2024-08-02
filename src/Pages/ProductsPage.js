@@ -2111,7 +2111,7 @@ export default function ProductsPage({setChangeColor,changeColor})
     console.log("DesignerArray",DesignerArray)
     return(
         <>
-        <div className="productDescriptionMainDiv mb-5 pb-5">
+        <div className="productDescriptionMainDiv mb-5 pb-5 fadeUpAnimation">
             <div className="row pageTitle m-0 p-0">
                 <h1 className="text-uppercase" >{activeLabel}</h1>
                 <p>"Our collection contains work from emerging talent and internationally recognized designers. Together, we create A Life Extraordinary."</p>

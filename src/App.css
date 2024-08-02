@@ -868,6 +868,10 @@ display: none;
   height: 80vh;
   overflow: hidden auto;
 }
+.itemModalFullScreen .modal-content::-webkit-scrollbar
+{
+  display: none;
+}
 
 #productPageModal
 {  

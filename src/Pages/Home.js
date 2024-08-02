@@ -59,8 +59,8 @@ export default function Home({setChangeColor,changeColor})
         }
         const FirstHomeAnimate1 = document.getElementById("FirstHomeAnimate1");
         if (FirstHomeAnimate1) {
-            FirstHomeAnimate1.style.visibility = scrollTop > 1334 ? "visible" : "hidden";
-            if (scrollTop > 1334) {
+            FirstHomeAnimate1.style.visibility = scrollTop > 760 ? "visible" : "hidden";
+            if (scrollTop > 760) {
                 FirstHomeAnimate1.classList.add("fadeUpAnimation");
             } else {
                 FirstHomeAnimate1.classList.remove("fadeUpAnimation");
@@ -68,8 +68,8 @@ export default function Home({setChangeColor,changeColor})
         }
         const FirstHomeAnimate2 = document.getElementById("FirstHomeAnimate2");
         if (FirstHomeAnimate2) {
-            FirstHomeAnimate2.style.visibility = scrollTop > 2334 ? "visible" : "hidden";
-            if (scrollTop > 2334) {
+            FirstHomeAnimate2.style.visibility = scrollTop > 1568 ? "visible" : "hidden";
+            if (scrollTop > 1568) {
                 FirstHomeAnimate2.classList.add("fadeUpAnimation");
             } else {
                 FirstHomeAnimate2.classList.remove("fadeUpAnimation");
@@ -77,8 +77,8 @@ export default function Home({setChangeColor,changeColor})
         }
         const FirstHomeAnimate3 = document.getElementById("FirstHomeAnimate3");
         if (FirstHomeAnimate3) {
-            FirstHomeAnimate3.style.visibility = scrollTop > 3634 ? "visible" : "hidden";
-            if (scrollTop > 3634) {
+            FirstHomeAnimate3.style.visibility = scrollTop > 2725 ? "visible" : "hidden";
+            if (scrollTop > 2725) {
                 FirstHomeAnimate3.classList.add("fadeUpAnimation");
             } else {
                 FirstHomeAnimate3.classList.remove("fadeUpAnimation");
@@ -86,8 +86,8 @@ export default function Home({setChangeColor,changeColor})
         }
         const FirstHomeAnimate4 = document.getElementById("FirstHomeAnimate4");
         if (FirstHomeAnimate4) {
-            FirstHomeAnimate4.style.visibility = scrollTop > 4474 ? "visible" : "hidden";
-            if (scrollTop > 4474) {
+            FirstHomeAnimate4.style.visibility = scrollTop > 3347 ? "visible" : "hidden";
+            if (scrollTop > 3347) {
                 FirstHomeAnimate4.classList.add("fadeUpAnimation");
             } else {
                 FirstHomeAnimate4.classList.remove("fadeUpAnimation");
@@ -103,7 +103,7 @@ export default function Home({setChangeColor,changeColor})
         <div className="homePageMainDiv" onScroll={(e)=>{scrollFunction(e)}}>
             <div className='position-relative'>
                 <video autoplay="autoplay" loop muted>
-                    <source src="homePageVideo.mp4" type="video/mp4"></source>
+                    <source src="https://cdn.moooi.com/assets/Web-Items/Videos/Tubelight/Moooi_Tubelight_forHomepage.mp4" type="video/mp4"></source>
                 </video>
                 <div className='position-absolute video-overlay-text text-focus-in'>
                     <p className='mb-1'>Milan 2024</p>
@@ -126,11 +126,11 @@ export default function Home({setChangeColor,changeColor})
                     
                 </div>
             </div>
-            <div className='productStoryDiv '>
+            {/* <div className='productStoryDiv '>
                     <p className='para1'>Product Story</p>
                     <p className='para2'  id="FirstHomeAnimate" style={{visibility:"hidden"}}>Gentle, genuine, & <br></br>generous Big George</p>
                     <button>Discover the Big George</button>        
-            </div>
+            </div> */}
             <div className='cardView'>
                 <div className="row justify-content-center card1">
                         <div className="col-6 biodesc p-5" id="FirstHomeAnimate1" style={{visibility:"hidden"}}>
@@ -140,7 +140,7 @@ export default function Home({setChangeColor,changeColor})
                         </div>
                             <div className="col-6 p-0 m-0">
                                 <img className=" bioimage"
-                                src="https://www.moooi.com/_next/image?url=https%3A%2F%2Fcdn.moooi.com%2Fassets%2FCollection%2FWallcovering%2FLacey%20Longlegs%2FJPG%2FLacyLonglegs_White_Tubelight500.jpg&w=1080&q=80"
+                                src="https://www.moooi.com/_next/image?url=https%3A%2F%2Fcdn.moooi.com%2Fassets%2FApplied%2FFairs-events%2FMilan%2F2024%2FPress%20images%2FTIF%2FMoooi-Milan-Design-Week-2024-Greenhouse-Gathering-Big-George.tif&w=1200&q=80"
                                 ></img>
                             </div>  
                        
@@ -149,7 +149,7 @@ export default function Home({setChangeColor,changeColor})
                         
                             <div className="col-6 p-0 m-0">
                                 <img className=" bioimage"
-                                src="https://www.moooi.com/_next/image?url=https%3A%2F%2Fcdn.moooi.com%2Fassets%2FCollection%2FExtinct%20Animals%20Insects%2FGlass%20Dome%2FTechnoBee%20in%20glass%20bell%20V03%20DJ.png&w=1200&q=80"
+                                src="https://cdn.moooi.com/assets/Collection/Wallcovering/Greenhouse%20Gathering/JPG/MoooiWallcoveringGreenHouse_1_Roomshot.jpg"
                                 ></img>
                             </div> 
                             <div className="col-6 biodesc p-5"  id="FirstHomeAnimate2" style={{visibility:"hidden"}}>

@@ -362,7 +362,7 @@ export default function ProductDescriptionPage(props)
 
     return(
      
-       <div className="mainDivForProductDescriptionPage" 
+       <div className="mainDivForProductDescriptionPage fadeUpAnimation" 
        style={{visibility:"visible"}}
        onScroll={(e)=>{scrollFunction(e)}}
        >

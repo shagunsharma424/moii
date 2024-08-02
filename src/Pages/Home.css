@@ -14,13 +14,14 @@
 {
     height: 100vh;
     overflow: hidden auto;
+    margin-top: 4px;
 }
 .homePageMainDiv::-webkit-scrollbar{
     display: none;
 }
 .video-overlay-text
 {
-    top:40%;
+    top:33%;
     width: 99%;
     backdrop-filter: saturate(0.5);
 }
@@ -105,6 +106,7 @@
     line-height: 48px;
     position: relative;
     top: 30%;
+    margin-bottom: 0px;
 }
 .productStoryDiv button
 {
